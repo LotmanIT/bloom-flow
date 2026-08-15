@@ -1,38 +1,16 @@
-# ── OS / editor junk ────────────────────────────────────────────────
-.DS_Store
-Thumbs.db
-desktop.ini
-*.swp
-*~
+# Ignore everything by default
+*
+!*/
 
-# ── Editor / IDE ────────────────────────────────────────────────────
-.vscode/
-.idea/
-*.code-workspace
-
-# ── Python ──────────────────────────────────────────────────────────
-__pycache__/
-*.py[cod]
-.venv/
-venv/
-env/
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
-
-# ── Node ────────────────────────────────────────────────────────────
-node_modules/
-npm-debug.log*
-
-# ── Apps Script / clasp ─────────────────────────────────────────────
-# Local OAuth tokens & personal credentials (NEVER commit these).
-# .clasp.json (project config with scriptId) is intentionally tracked.
-.clasprc.json
-.clasp_token.tmp
-~/.clasprc.json
-
-# ── Local scratch / notes ───────────────────────────────────────────
-scratch/
-tmp/
-*.bak
-*.orig
+# Only track bloom-flow project content
+!.gitignore
+!.github/
+!Episode Engine Flight Manual/
+!Episode Engine Flight Manual/**
+!Media Matrix HTML5 engine/
+!Media Matrix HTML5 engine/**
+!Tour_Audio/
+!Tour_Audio/**
+!README.md
+!LICENSE
+!RELEASE_NOTES.md
