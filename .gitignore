@@ -1,0 +1,38 @@
+# ── OS / editor junk ────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# ── Editor / IDE ────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.code-workspace
+
+# ── Python ──────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ── Node ────────────────────────────────────────────────────────────
+node_modules/
+npm-debug.log*
+
+# ── Apps Script / clasp ─────────────────────────────────────────────
+# Local OAuth tokens & personal credentials (NEVER commit these).
+# .clasp.json (project config with scriptId) is intentionally tracked.
+.clasprc.json
+.clasp_token.tmp
+~/.clasprc.json
+
+# ── Local scratch / notes ───────────────────────────────────────────
+scratch/
+tmp/
+*.bak
+*.orig
