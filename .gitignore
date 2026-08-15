@@ -2,8 +2,15 @@
 *
 !*/
 
-# Only track .github/ and bloom-flow/
+# Only track bloom-flow project content
 !.gitignore
 !.github/
-!bloom-flow/
-!bloom-flow/**
+!Episode Engine Flight Manual/
+!Episode Engine Flight Manual/**
+!Media Matrix HTML5 engine/
+!Media Matrix HTML5 engine/**
+!Tour_Audio/
+!Tour_Audio/**
+!README.md
+!LICENSE
+!RELEASE_NOTES.md
