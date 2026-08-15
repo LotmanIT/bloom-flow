@@ -31,25 +31,6 @@ A custom, self-contained web application served via **Google Apps Script** into 
 
 ---
 
-## 🚀 Quick Start & Deployment
-
-Want to deploy the Episode Engine into your own workspace? Here's the pre-flight checklist:
-
-### 1. Clone the Notion Matrix
-Duplicate the core OS database into your Notion workspace:
-👉 **[Get the Notion Matrix Here](YOUR_NOTION_TEMPLATE_LINK_HERE)**
-
-### 2. Deploy the Serverless Flight Manual
-Deploy this repository's code to your own Google Account to run the UI inside Notion:
-1. Go to [script.google.com](https://script.google.com/) and create a **New Project**.
-2. Copy `gas/Code.gs` and `gas/Index.html` from `Episode Engine Flight Manual/` into your GAS project.
-3. Add your GA4 Measurement ID in the `<head>` of `Index.html` for traffic telemetry.
-4. Click **Deploy > New Deployment**.
-5. Select **Web App**, set *Execute as* to **Me**, and *Who has access* to **Anyone**. Click **Deploy**.
-6. Copy the resulting Web App URL, type `/embed` in your Notion dashboard, and paste the link.
-
----
-
 ## 🤝 Contributing
 
 We are building the ultimate creator OS and welcome community pull requests. Whether it's adding features to the Google Apps Script UI, optimizing the CSS, or expanding the Notion Formula 2.0 logic.
