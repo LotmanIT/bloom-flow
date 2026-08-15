@@ -1,0 +1,9 @@
+# Ignore everything by default
+*
+!*/
+
+# Only track .github/ and bloom-flow/
+!.gitignore
+!.github/
+!bloom-flow/
+!bloom-flow/**
